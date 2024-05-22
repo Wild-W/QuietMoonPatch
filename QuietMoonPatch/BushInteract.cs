@@ -26,6 +26,8 @@ public class BushInteract : MonoBehaviour
         originalPosition = transform.localPosition;
     }
 
+    // If there's a mod that moves game objects it won't work with my bushes
+    // because they're hardcoded to return to their original position when touched
     void Update()
     {
         if (Time.time < shakeEndTime)
