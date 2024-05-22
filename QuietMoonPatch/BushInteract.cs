@@ -17,7 +17,7 @@ public class BushInteract : MonoBehaviour
 
         audioData.clip = audioClips[BranchRandom.Instance.random.Next(audioClips.Length)];
         audioData.Play();
-        RoundManager.Instance.PlayAudibleNoise(transform.position, noiseRange: 25f, noiseLoudness: 0.6f);
+        RoundManager.Instance.PlayAudibleNoise(transform.position, noiseRange: 35f, noiseLoudness: 0.7f);
         shakeEndTime = Time.time + shakeDuration;
     }
 
