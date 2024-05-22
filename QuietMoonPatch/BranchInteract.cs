@@ -6,6 +6,9 @@ public class BranchInteract : MonoBehaviour
     public GameObject branch;
     public GameObject brokenBranch;
 
+    private GameObject branchInstance;
+    private GameObject brokenBranchInstance;
+
     private bool spawned = false;
 
     private float targetTime;
@@ -29,8 +32,8 @@ public class BranchInteract : MonoBehaviour
         RoundManager.Instance.PlayAudibleNoise(transform.position, noiseRange: 80f, noiseLoudness: 1f);
 
         GetComponent<Collider>().enabled = false;
-        Destroy(branch);
-        brokenBranch = Instantiate(brokenBranch, transform.position + VEC_OFFSET, RAND_ROTATION);
+        Destroy(branchInstance);
+        brokenBranchInstance = Instantiate(brokenBranch, transform.position + VEC_OFFSET, RAND_ROTATION);
     }
 
     private void Update()
@@ -47,7 +50,7 @@ public class BranchInteract : MonoBehaviour
                 }
             }
 
-            branch = Instantiate(branch, transform.position + VEC_OFFSET, RAND_ROTATION);
+            branchInstance = Instantiate(branch, transform.position + VEC_OFFSET, RAND_ROTATION);
             GetComponent<Collider>().enabled = true;
             spawned = true;
         }
@@ -55,8 +58,8 @@ public class BranchInteract : MonoBehaviour
 
     private void OnDestroy()
     {
-        Destroy(branch);
-        Destroy(brokenBranch);
+        Destroy(branchInstance);
+        Destroy(brokenBranchInstance);
     }
 
     private float GetRandomTime()
