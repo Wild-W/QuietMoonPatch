@@ -7,7 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuietMoonPatch", "QuietMoon
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{486CECBD-477F-430D-BF8C-6821552A0371}"
 	ProjectSection(SolutionItems) = preProject
+		manifest.json = manifest.json
 		README.md = README.md
+	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		C_5_4Users_4conno_4source_4repos_4QuietMoonPatch_4manifest_1json__JsonSchema = https://raw.githubusercontent.com/ash-hat/thunderstore.manifest/v1/r2modman/schema.json
 	EndProjectSection
 EndProject
 Global
