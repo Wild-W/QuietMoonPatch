@@ -4,8 +4,8 @@ public class BushInteract : MonoBehaviour
 {
     public AudioClip[] audioClips;
 
-    private static readonly float shakeDuration = 0.3f;
-    public static readonly float shakeMagnitude = 0.05f;
+    private const float shakeDuration = 0.3f;
+    private const float shakeMagnitude = 0.05f;
 
     private Vector3 originalPosition;
     private float shakeEndTime;
@@ -27,7 +27,7 @@ public class BushInteract : MonoBehaviour
     }
 
     // If there's a mod that moves game objects it won't work with my bushes
-    // because they're hardcoded to return to their original position when touched
+    // because they're hardcoded to return to their original position every update
     void Update()
     {
         if (Time.time < shakeEndTime)
