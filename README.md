@@ -4,7 +4,7 @@
 
 >Your next assignment takes you to the forest moon A-97X, code name: Bomenoren. A lush and sprawling wilderness. This moon's dense foliage creates a challenging environment where every step could be your last.
 
->Beware, the dogs here are unlike any you've encountered before. Their numbers are greater, and their presence more menacing. The forest is littered with fallen branches and rustling bushes that will betray your >movements with the slightest touch. In this moon's eerie silence, even the faintest noise will draw their attention.
+>Beware, the dogs here are unlike any you've encountered before. Their numbers are greater, and their presence more menacing. The forest is littered with fallen branches and rustling bushes that will betray your movements with the slightest touch. In this moon's eerie silence, even the faintest noise will draw their attention.
 
 >Remain vigilant. The forest's secrets are yours to uncover, but only if you can survive its lurking dangers. Proceed with caution, scavenger. The shadows are alive with unseen threats.
 
