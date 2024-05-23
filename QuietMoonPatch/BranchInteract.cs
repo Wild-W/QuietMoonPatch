@@ -9,7 +9,7 @@ public class BranchInteract : MonoBehaviour
     private GameObject branchInstance;
     private GameObject brokenBranchInstance;
 
-    private bool spawned = false;
+    private bool spawned;
 
     private float targetTime;
 
@@ -21,6 +21,7 @@ public class BranchInteract : MonoBehaviour
         targetTime = GetRandomTime();
         // Make sure collider is disabled
         GetComponent<Collider>().enabled = false;
+        spawned = false;
     }
 
     private void OnTriggerEnter(Collider other)
