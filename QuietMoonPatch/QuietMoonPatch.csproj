@@ -70,8 +70,6 @@
     <Compile Include="BranchInteract.cs" />
     <Compile Include="BranchRandom.cs" />
     <Compile Include="BushInteract.cs" />
-    <Compile Include="FixDungeonGeneration.cs" />
-    <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
