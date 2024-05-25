@@ -8,7 +8,7 @@ namespace QuietMoonPatch
     public class ModBase : BaseUnityPlugin
     {
         private const string modGUID = "BomenorenMoonModWildW";
-        private const string modName = "BomenorenMod";
+        private const string modName = "Bomenoren";
         private const string modVersion = "1.0.0.0";
 
         private readonly Harmony harmony = new Harmony(modGUID);
