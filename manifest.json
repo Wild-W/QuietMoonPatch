@@ -1,10 +1,10 @@
 {
   "name": "97-Bomenoren",
   "description": "Adds the forest moon 97-Bomenoren to Lethal Company.",
-  "version_number": "1.0.0",
+  "version_number": "1.1.0",
   "dependencies": [
     "IAmBatby-LethalLevelLoader-1.2.4",
     "BepInEx-BepInExPack-5.4.2100"
   ],
-  "website": "https://github.com/Wild-W/QuietMoonPatch"
+  "website_url": "https://github.com/Wild-W/QuietMoonPatch"
 }
